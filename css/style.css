@@ -1,8 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&family=Questrial&display=swap");
 body {
   background: #f2f2f2;
   margin: 0;
-  font-family: 'Noto Sans JP';
+  font-family: 'Questrial', sans-serif;
 }
 
 .navbar {
@@ -11,10 +12,12 @@ body {
 }
 
 .navbar .logo {
+  padding-top: 0.1em;
   text-decoration: none;
-  font-weight: 700;
+  font-family: 'Questrial', sans-serif;
+  font-weight: 500;
   color: black;
-  font-size: 1.32em;
+  font-size: 1.5em;
 }
 
 .navbar .logo span {
@@ -22,7 +25,18 @@ body {
   color: black;
 }
 
-nav {
+.navbar nav {
   display: none;
+}
+
+.navbar .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  place-content: space-between;
+}
+
+.navbar .mobile-menu {
+  cursor: pointer;
 }
 /*# sourceMappingURL=style.css.map */
