@@ -66,12 +66,33 @@ body{
         
     }
     .profile{
-        
+        margin: auto;
         float: left;
-        width: 10.3%;
-        padding: 5em;
-
+        width: 33.3333%;
+        padding-top: 1em;
+        padding-bottom: 4em;;
+        .inLogo{
+            padding-top: 0.7em;
+            width: 70px;
+            height: 70px;
+        }
+        .ghLogo{
+            padding-top: 0.2em;
+            width: 82px;
+            height: 82.5px;
+        }
+        .lcLogo{
+            padding-top: 0.75em;
+            width: 65px;
+            height: 66px;
+        }
+        
     }
+}
+.profile-pic{
+    margin: auto;
+    height: 300px;
+    width: 300px;
 }
     
     
