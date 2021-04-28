@@ -93,19 +93,53 @@ body {
 
 .profile-pic {
   margin: auto;
-  height: 300px;
-  width: 290px;
+  height: 320px;
+  width: 310px;
 }
 
 .resume {
   color: white;
   display: block;
-  margin: 3em 5em;
+  margin: 2.5em 5em;
+  margin-bottom: 1em;
   background: rgba(0, 0, 0, 0.397);
   border-radius: 4em;
   padding: 0.6em 0.5em;
   text-decoration: none;
   font-size: 1.4em;
   font-weight: 200px;
+}
+
+.Experiences {
+  margin-top: 0em;
+  background: #464646;
+  color: white;
+  border-radius: 1em;
+}
+
+.Experiences div {
+  margin-bottom: 2em;
+}
+
+.Experiences .exp-heading {
+  font-size: 3em;
+  margin-top: 0.4em;
+}
+
+.Experiences h2 {
+  font-size: 1.6em;
+  color: #e9e942;
+}
+
+.Experiences h4 {
+  font-size: 17px;
+}
+
+.Experiences ul {
+  padding-left: 1em;
+}
+
+.Experiences ul li {
+  margin-bottom: 0.3em;
 }
 /*# sourceMappingURL=style.css.map */
