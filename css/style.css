@@ -140,6 +140,8 @@ body {
 }
 
 .Experiences ul li {
-  margin-bottom: 0.3em;
+  margin-bottom: 0.5em;
+  list-style: disc;
+  line-height: 1.25em;
 }
 /*# sourceMappingURL=style.css.map */
