@@ -144,4 +144,43 @@ body {
   list-style: disc;
   line-height: 1.25em;
 }
+
+.skills {
+  background: #97d8ec;
+  color: black;
+  border-radius: 1em;
+}
+
+.skills .skills-heading {
+  font-size: 3em;
+  margin-top: 0.4em;
+}
+
+.skills h4 {
+  font-size: 22px;
+  color: #c066ad;
+  margin-bottom: 0.75em;
+}
+
+.skills ul {
+  padding-left: 1.5em;
+}
+
+.skills ul li {
+  font-size: 17px;
+  margin-bottom: 0.5em;
+  list-style-type: none;
+  position: relative;
+}
+
+.skills ul li:before {
+  content: '';
+  left: -1.5em;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background-image: url("../images/check.svg");
+  background-size: contain;
+  margin-right: 0.5em;
+}
 /*# sourceMappingURL=style.css.map */

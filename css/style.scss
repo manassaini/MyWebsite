@@ -137,6 +137,43 @@ body{
     }
 }
 
+.skills{
+    background:rgb(151, 216, 236);
+    color: black;
+    border-radius: 1em;
+
+    .skills-heading{
+        font-size: 3em;
+        margin-top: 0.4em;
+    }
+    h4{
+        font-size: 22px;
+        color:rgb(192, 102, 173);
+        margin-bottom: 0.75em;
+
+    }
+    ul{
+        padding-left: 1.5em;
+        li{
+            font-size: 17px;
+            margin-bottom: 0.5em;
+            list-style-type: none;
+            position: relative;
+            
+            &:before{
+                content: '';
+                left: -1.5em;
+                position: absolute;
+                width: 20px;
+                height: 20px;
+                background-image: url('../images/check.svg');
+                background-size: contain;
+                margin-right: 0.5em;
+            }
+        }
+    }
+}
+
     
     
 
