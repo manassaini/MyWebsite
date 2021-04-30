@@ -34,10 +34,6 @@ body {
   color: black;
 }
 
-.navbar nav {
-  display: none;
-}
-
 .navbar .container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -202,6 +198,7 @@ body {
 .projects h4 {
   font-size: 1.6em;
   margin-bottom: 1em;
+  color: #000279;
 }
 
 .projects h4 span {
@@ -217,5 +214,50 @@ body {
   margin-bottom: 0.5em;
   list-style: disc;
   line-height: 1.25em;
+}
+
+nav.menu-btn {
+  display: block;
+}
+
+nav {
+  position: fixed;
+  z-index: 999;
+  width: 66%;
+  right: 0;
+  top: 0;
+  background: #464646;
+  height: 100vh;
+  padding: 1em;
+}
+
+nav ul.first-nav {
+  margin-top: 5em;
+}
+
+nav li {
+  list-style-type: none;
+}
+
+nav li a {
+  color: white;
+  text-decoration: none;
+  display: block;
+  padding: 0.5em;
+  font-size: 1.3em;
+  text-align: right;
+}
+
+nav li:hover {
+  font-weight: bold;
+}
+
+.mobile-menu-exit {
+  color: white;
+  height: 40px;
+  weight: 40px;
+  float: right;
+  margin: 0.5em;
+  cursor: pointer;
 }
 /*# sourceMappingURL=style.css.map */
