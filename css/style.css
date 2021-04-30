@@ -194,12 +194,6 @@ body {
   margin-top: 0.4em;
 }
 
-.projects .project1 img {
-  margin: 0.5em auto 1.5em auto;
-  height: 250px;
-  width: 385px;
-}
-
 .projects h4 {
   font-size: 1.6em;
   margin-bottom: 1em;
@@ -218,5 +212,10 @@ body {
   margin-bottom: 0.5em;
   list-style: disc;
   line-height: 1.25em;
+}
+
+.cluegamepicture {
+  margin: 0.5em auto 1.5em auto;
+  width: 419px;
 }
 /*# sourceMappingURL=style.css.map */
