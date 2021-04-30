@@ -183,8 +183,16 @@ body{
         margin-top: 0.4em;
     }
 
+    .project1{
+        img{
+            margin: 0.5em auto 1.5em auto;
+            height: 250px;
+            width: 385px;
+        }
+    }
     h4{
         font-size: 1.6em;
+        margin-bottom: 1em;
         span{
             color: rgb(255, 247, 247);
             font-size: 0.75em;

@@ -194,8 +194,15 @@ body {
   margin-top: 0.4em;
 }
 
+.projects .project1 img {
+  margin: 0.5em auto 1.5em auto;
+  height: 250px;
+  width: 385px;
+}
+
 .projects h4 {
   font-size: 1.6em;
+  margin-bottom: 1em;
 }
 
 .projects h4 span {
