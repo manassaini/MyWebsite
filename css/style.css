@@ -34,6 +34,10 @@ body {
   color: black;
 }
 
+.navbar nav {
+  display: none;
+}
+
 .navbar .container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -253,7 +257,6 @@ nav li:hover {
 }
 
 .mobile-menu-exit {
-  color: white;
   height: 40px;
   weight: 40px;
   float: right;
