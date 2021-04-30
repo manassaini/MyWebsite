@@ -189,6 +189,11 @@ body {
   border-radius: 1em;
 }
 
+.projects img {
+  margin: 0.5em auto 1.5em auto;
+  width: 419px;
+}
+
 .projects .projects-heading {
   font-size: 3em;
   margin-top: 0.4em;
@@ -212,10 +217,5 @@ body {
   margin-bottom: 0.5em;
   list-style: disc;
   line-height: 1.25em;
-}
-
-.cluegamepicture {
-  margin: 0.5em auto 1.5em auto;
-  width: 419px;
 }
 /*# sourceMappingURL=style.css.map */

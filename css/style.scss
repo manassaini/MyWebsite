@@ -177,6 +177,11 @@ body{
 .projects{
     background:rgb(231, 172, 172);
     border-radius: 1em;
+
+    img{
+        margin: 0.5em auto 1.5em auto;
+    width: 419px;
+    }
     
     .projects-heading{
         font-size: 3em;
@@ -200,12 +205,6 @@ body{
             line-height: 1.25em;
         }
     }
-}
-
-.cluegamepicture{
-    margin: 0.5em auto 1.5em auto;
-    width: 419px;
-
 }
 
     
