@@ -183,4 +183,33 @@ body {
   background-size: contain;
   margin-right: 0.5em;
 }
+
+.projects {
+  background: #e7acac;
+  border-radius: 1em;
+}
+
+.projects .projects-heading {
+  font-size: 3em;
+  margin-top: 0.4em;
+}
+
+.projects h4 {
+  font-size: 1.6em;
+}
+
+.projects h4 span {
+  color: #fff7f7;
+  font-size: 0.75em;
+}
+
+.projects ul {
+  padding-left: 1em;
+}
+
+.projects ul li {
+  margin-bottom: 0.5em;
+  list-style: disc;
+  line-height: 1.25em;
+}
 /*# sourceMappingURL=style.css.map */

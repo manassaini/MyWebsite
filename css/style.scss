@@ -174,6 +174,33 @@ body{
     }
 }
 
+.projects{
+    background:rgb(231, 172, 172);
+    border-radius: 1em;
+    
+    .projects-heading{
+        font-size: 3em;
+        margin-top: 0.4em;
+    }
+
+    h4{
+        font-size: 1.6em;
+        span{
+            color: rgb(255, 247, 247);
+            font-size: 0.75em;
+        }
+    }
+
+    ul{
+        padding-left:1em;
+        li{
+            margin-bottom: 0.5em;
+            list-style: disc;
+            line-height: 1.25em;
+        }
+    }
+}
+
     
     
 
