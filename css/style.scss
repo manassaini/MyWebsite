@@ -138,7 +138,7 @@ body{
 }
 
 .skills{
-    background:rgb(170, 216, 230);
+    background:rgb(187, 191, 194);
     color: black;
     border-radius: 1em;
 
@@ -175,40 +175,57 @@ body{
 }
 
 .projects{
-    background:rgb(226, 183, 183);
+    background:rgb(70, 70, 70);
     border-radius: 1em;
 
-    img{
-        margin: 0.5em auto 1.5em auto;
-    width: 419px;
-    }
-    
     .projects-heading{
         font-size: 3em;
         margin-top: 0.4em;
+        color: white;
+    }
+
+    a{
+        text-decoration: none;
+        color:rgb(233, 233, 66);
+
+        &:hover{
+            color: rgb(0, 195, 255);
+        }
     }
 
     h4{
         font-size: 1.6em;
         margin-bottom: 1em;
-        color: rgb(0, 2, 121);
+        color:rgb(233, 233, 66);
+
         span{
             color: rgb(255, 247, 247);
             font-size: 0.75em;
         }
     }
+    
+    section{
+        background: rgb(34, 33, 33);
+        border-radius: 1em;
+        height: 400px;
+        
+        p{
+            color: white;
+            margin: -1em -1em;
+            margin-top: 2em;
+        }
 
-    ul{
-        padding-left:1em;
-        li{
-            margin-bottom: 0.5em;
-            list-style: disc;
-            line-height: 1.25em;
+        img{
+            border-radius: 1em;
+            width: 396px;
+            padding: 0em;
+            margin: -1em -1em; 
+            
         }
     }
 }
 
-  
+
 nav.menu-btn{
     display: block;
 }

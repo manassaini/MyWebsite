@@ -146,7 +146,7 @@ body {
 }
 
 .skills {
-  background: #aad8e6;
+  background: #bbbfc2;
   color: black;
   border-radius: 1em;
 }
@@ -185,24 +185,29 @@ body {
 }
 
 .projects {
-  background: #e2b7b7;
+  background: #464646;
   border-radius: 1em;
-}
-
-.projects img {
-  margin: 0.5em auto 1.5em auto;
-  width: 419px;
 }
 
 .projects .projects-heading {
   font-size: 3em;
   margin-top: 0.4em;
+  color: white;
+}
+
+.projects a {
+  text-decoration: none;
+  color: #e9e942;
+}
+
+.projects a:hover {
+  color: #00c3ff;
 }
 
 .projects h4 {
   font-size: 1.6em;
   margin-bottom: 1em;
-  color: #000279;
+  color: #e9e942;
 }
 
 .projects h4 span {
@@ -210,14 +215,23 @@ body {
   font-size: 0.75em;
 }
 
-.projects ul {
-  padding-left: 1em;
+.projects section {
+  background: #222121;
+  border-radius: 1em;
+  height: 400px;
 }
 
-.projects ul li {
-  margin-bottom: 0.5em;
-  list-style: disc;
-  line-height: 1.25em;
+.projects section p {
+  color: white;
+  margin: -1em -1em;
+  margin-top: 2em;
+}
+
+.projects section img {
+  border-radius: 1em;
+  width: 396px;
+  padding: 0em;
+  margin: -1em -1em;
 }
 
 nav.menu-btn {
