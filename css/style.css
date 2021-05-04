@@ -219,6 +219,7 @@ body {
   border-radius: 1em;
   height: 400px;
   margin-bottom: 2.5em;
+  width: 354px;
 }
 
 .projects section p {
@@ -229,7 +230,7 @@ body {
 
 .projects section img {
   border-radius: 1em;
-  width: 396px;
+  width: 386px;
   padding: 0em;
   margin: -1em -1em;
 }
