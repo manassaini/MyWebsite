@@ -111,7 +111,6 @@ body {
 }
 
 .Experiences {
-  margin-top: 0em;
   background: #464646;
   color: white;
   border-radius: 1em;
@@ -277,10 +276,6 @@ nav li:hover {
   float: right;
   margin: 0.5em;
   cursor: pointer;
-}
-
-.footer {
-  margin-top: 0em;
 }
 
 .footer h2 {
