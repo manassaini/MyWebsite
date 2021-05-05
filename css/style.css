@@ -159,10 +159,48 @@ body {
   font-size: 22px;
   color: #c066ad;
   margin-bottom: 0.75em;
+  position: relative;
+}
+
+.skills .tech-heading:before {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 2px;
+  background: black;
+  position: absolute;
+  left: 4.4em;
+  top: 50%;
+}
+
+.skills .method-heading:before {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 2px;
+  background: black;
+  position: absolute;
+  left: 6.75em;
+  top: 50%;
+}
+
+.skills .inter-heading:before {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 2px;
+  background: black;
+  position: absolute;
+  left: 6em;
+  top: 50%;
 }
 
 .skills ul {
   padding-left: 1.5em;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(19rem, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(19rem, 1fr));
 }
 
 .skills ul li {
