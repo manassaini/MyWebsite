@@ -312,5 +312,21 @@ nav{
             margin: 0;
             margin-top: 0.2em;
         }
+
+        .resume-button{
+            border: 3px solid rgb(14, 95, 170);
+            border-radius: 5em;
+            font-weight: bold;
+
+            &:hover{
+                background:rgb(14, 95, 170);
+                text-color: white;
+                //why is the color not changing to white???
+            }
+        }
     }
+}
+
+@media only screen and (min-width: 1010px) {
+
 }
