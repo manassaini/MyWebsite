@@ -351,6 +351,19 @@ nav li:hover {
     height: auto;
     width: 100%;
     padding: 0;
+    /*
+        .resume-button{
+            border: 3px solid rgb(14, 95, 170);
+            border-radius: 5em;
+            font-weight: bold;
+
+            &:hover{
+                background:rgb(14, 95, 170);
+                text-color: white;
+                //why is the color not changing to white???
+            }
+        }
+        */
   }
   .navbar nav ul {
     display: -webkit-box;
@@ -366,15 +379,6 @@ nav li:hover {
   .navbar nav ul.first-nav {
     margin: 0;
     margin-top: 0.2em;
-  }
-  .navbar nav .resume-button {
-    border: 3px solid #0e5faa;
-    border-radius: 5em;
-    font-weight: bold;
-  }
-  .navbar nav .resume-button:hover {
-    background: #0e5faa;
-    text-color: white;
   }
 }
 /*# sourceMappingURL=style.css.map */
