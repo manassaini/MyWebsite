@@ -370,5 +370,52 @@ nav{
 }
 
 @media only screen and (min-width: 1010px) {
+    
 
+    .hero{
+        //padding: 3em 4em;
+    }
+
+    
+    .hero .container{
+        display: flex;
+        justify-content: space-between;
+        text-align: left;
+    }
+    
+    .left{
+        margin: 3em 3em 0 5em;
+        /*
+        text-align: left;
+        margin-left: 5em;
+        margin-top: 4em;
+        */
+
+        .main-heading{
+            font-size: 3.2em;
+            width: 100%;
+        }
+        .sub-heading{
+            font-size: 2em;
+        }
+
+        .profile{
+            align-items: center;
+            margin: auto;
+            float: left;
+            width: 33%;
+
+            .lcLogo{
+                margin-left: 0.9em;
+            }
+        }
+    }
+    
+    
+    
+
+    .right{
+        margin-left: 10em;
+    }
+    
 }
