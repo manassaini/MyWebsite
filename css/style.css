@@ -419,7 +419,15 @@ nav li:hover {
     margin-left: 0.9em;
   }
   .right {
-    margin-left: 10em;
+    margin: 3em 3em 0 5em;
+  }
+  .right .profile-pic {
+    margin-top: 2em;
+  }
+  .right .resume {
+    width: 7em;
+    text-align: center;
+    margin-right: 3em;
   }
 }
 /*# sourceMappingURL=style.css.map */

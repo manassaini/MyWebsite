@@ -404,6 +404,7 @@ nav{
             margin: auto;
             float: left;
             width: 33%;
+           // margin-top: 1em;
 
             .lcLogo{
                 margin-left: 0.9em;
@@ -415,7 +416,15 @@ nav{
     
 
     .right{
-        margin-left: 10em;
+        margin: 3em 3em 0 5em;
+        .profile-pic{
+            margin-top: 2em;
+        }
+        .resume{
+            width: 7em;
+            text-align: center;
+            margin-right: 3em;
+        }
     }
     
 }
