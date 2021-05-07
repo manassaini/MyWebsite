@@ -406,6 +406,7 @@ nav li:hover {
   }
   .left .sub-heading {
     font-size: 2em;
+    margin-bottom: 0.5em;
   }
   .left .profile {
     -webkit-box-align: center;
