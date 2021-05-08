@@ -159,7 +159,7 @@ body{
     .tech-heading:before{
         content: "";
         display: block;
-        width: 100%;
+        width: 84%;
         height: 2px;
         background: var(--line-color);
         position: absolute;
@@ -170,7 +170,7 @@ body{
     .method-heading:before{
         content: "";
         display: block;
-        width: 100%;
+        width: 71.7%;
         height: 2px;
         background: var(--line-color);
         position: absolute;
@@ -181,7 +181,7 @@ body{
     .inter-heading:before{
         content: "";
         display: block;
-        width: 100%;
+        width: 75.7%;
         height: 2px;
         background: var(--line-color);
         position: absolute;
@@ -367,11 +367,21 @@ nav{
         }
         */
     }
+    /*
+    .hero{
+        height: 100vh;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+    */
+
+    .resume{
+        margin-left: 10em;
+        margin-right: 10em;
+    }
 }
 
 @media only screen and (min-width: 1010px) {
-    
-
     .hero{
         //padding: 3em 4em;
     }
@@ -413,19 +423,79 @@ nav{
         }
     }
     
-    
-    
-
     .right{
         margin: 3em 3em 0 5em;
         .profile-pic{
             margin-top: 3em;
         }
         .resume{
-            width: 7em;
-            text-align: center;
-            margin-right: 3em;
+            display: none;
         }
     }
+
     
+    .Experiences {
+        margin-left: 2em;
+        margin-right: 2em;
+        margin: 2em;
+    }
+    
+    .skills{
+        margin-left: 2em;
+        margin-right: 2em;
+        margin: 2em;
+    }
+
+    .projects{
+        margin-left: 2em;
+        margin-right: 2em;
+        margin: 2em;
+    }
+    
+    .skills{
+        .tech-heading:before{
+            width: 93%;
+        }
+        .method-heading:before{
+            width: 87.5%;
+        }
+        .inter-heading:before{
+            width: 89.25%;
+        }
+    }
+    /*
+    .tech-heading:before{
+        display: none;
+    }
+
+    .skills{
+
+        .tech-heading{
+            position: relative;
+        }
+    
+        .tech-heading:before{
+            width: 92.45%;
+        }
+
+        .method-heading{
+            position: relative;
+        }
+
+        .method-heading:before{
+            content: "";
+            display: block;
+            width: 92.45%;
+            height: 2px;
+            background: var(--line-color);
+            position: absolute;
+            left: 6.75em;
+            top: 50%;
+        }
+
+        .inter-heading:before{
+            width: 92.45;
+        }
+    }
+    */
 }
