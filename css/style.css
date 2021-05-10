@@ -466,5 +466,32 @@ nav li:hover {
     margin-right: 2em;
     margin: 2em;
   }
+  .projects .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .project1 {
+    margin-top: 5em;
+    margin-left: -11em;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    align-items: center;
+  }
+  .project2 {
+    margin-top: 10em;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-right: auto;
+    margin: auto;
+    align-items: center;
+    margin-left: auto;
+    align-items: center;
+  }
 }
 /*# sourceMappingURL=style.css.map */
