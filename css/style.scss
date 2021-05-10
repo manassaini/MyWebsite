@@ -151,11 +151,23 @@ body{
     h4{
         font-size: 22px;
         color:rgb(192, 102, 173);
-        margin-bottom: 0.75em;
+        margin-bottom: 0.5em;
         position: relative;
 
     }
 
+    hr{
+        display: block;
+        border: none;
+        margin-left: auto;
+        background-color: black;
+        height: 1px;
+        opacity: 10;
+        width: 100%;
+    }
+    
+
+    /*
     .tech-heading:before{
         content: "";
         display: block;
@@ -188,11 +200,14 @@ body{
         left: 6em;
         top: 50%;
     }
+    */
 
     ul{
+        margin-top: 1em;
         padding-left: 1.5em;
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(19rem, 1fr));
+
         li{
             font-size: 17px;
             margin-bottom: 0.5em;
@@ -433,7 +448,6 @@ nav{
         }
     }
 
-    
     .Experiences {
         margin-left: 2em;
         margin-right: 2em;
@@ -452,50 +466,6 @@ nav{
         margin: 2em;
     }
     
-    .skills{
-        .tech-heading:before{
-            width: 93%;
-        }
-        .method-heading:before{
-            width: 87.5%;
-        }
-        .inter-heading:before{
-            width: 89.25%;
-        }
-    }
-    /*
-    .tech-heading:before{
-        display: none;
-    }
-
-    .skills{
-
-        .tech-heading{
-            position: relative;
-        }
     
-        .tech-heading:before{
-            width: 92.45%;
-        }
-
-        .method-heading{
-            position: relative;
-        }
-
-        .method-heading:before{
-            content: "";
-            display: block;
-            width: 92.45%;
-            height: 2px;
-            background: var(--line-color);
-            position: absolute;
-            left: 6.75em;
-            top: 50%;
-        }
-
-        .inter-heading:before{
-            width: 92.45;
-        }
-    }
-    */
+    
 }
