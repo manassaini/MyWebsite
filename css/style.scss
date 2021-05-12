@@ -469,26 +469,31 @@ nav{
     .projects .container {
         display: flex;
         justify-content: space-between;
+        //position: relative;
     }
     
     .project1{
         margin-top: 5em;
         margin-left: -11em;
         align-items: center;
-        align-items: center;
     }
 
     .project2{
-        margin-top: 10em;
+        margin-top: 5em;
         align-items: center;
-        margin-right: auto;
-        margin: auto;
-        align-items: center;
-        //position: sticky;
-       // margin-right: 1em;
+        margin-right: 0em;
         margin-left: auto;
-        align-items: center;
+        //margin-right: 1em;
+        //margin-left: 2em;
+        
+    }
+
+    .wrapper{
+        margin-left: auto;
+        margin-right: auto;
+        width: 960px;
     }
     
     
 }
+
