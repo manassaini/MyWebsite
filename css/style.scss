@@ -464,12 +464,12 @@ nav{
         margin-left: 2em;
         margin-right: 2em;
         margin: 2em;
+        //margin-bottom: 0;
     }
 
     .projects .container {
         display: flex;
         justify-content: space-between;
-        //position: relative;
     }
     
     .project1{
@@ -483,17 +483,13 @@ nav{
         align-items: center;
         margin-right: 0em;
         margin-left: auto;
-        //margin-right: 1em;
-        //margin-left: 2em;
-        
+       
     }
 
-    .wrapper{
-        margin-left: auto;
-        margin-right: auto;
-        width: 960px;
+    .footer {
+        margin: 0;
+        padding: 0;
     }
-    
     
 }
 
