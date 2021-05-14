@@ -496,4 +496,25 @@ nav li:hover {
     padding: 0;
   }
 }
+
+@media only screen and (min-width: 1102px) {
+  .hero {
+    margin-top: 0.8em;
+  }
+  .hero .profile-pic {
+    margin-top: 1.3em;
+  }
+  .Experiences {
+    margin: 2em 3em;
+  }
+  .skills {
+    margin: 2em 3em;
+  }
+  .projects {
+    margin: 2em 3em;
+  }
+  .projects .project2 {
+    margin-right: 4em;
+  }
+}
 /*# sourceMappingURL=style.css.map */

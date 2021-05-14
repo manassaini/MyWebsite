@@ -491,3 +491,30 @@ nav{
     
 }
 
+@media only screen and (min-width: 1102px) {
+    .hero{
+        margin-top: 0.8em;
+
+        .profile-pic{
+            margin-top: 1.3em;
+        }
+    }
+
+    .Experiences {
+        margin: 2em 3em;
+    }
+    
+    .skills{
+        margin: 2em 3em;
+    }
+
+    .projects{
+        margin: 2em 3em;
+
+        .project2{
+            margin-right: 4em;
+        }
+    }
+
+}
+
