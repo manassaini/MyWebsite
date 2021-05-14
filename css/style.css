@@ -412,7 +412,7 @@ nav li:hover {
 @media only screen and (min-width: 1010px) {
   .hero {
     height: 100vh;
-    margin-top: 0;
+    margin-top: -3em;
   }
   .hero .container {
     display: -webkit-box;
