@@ -410,6 +410,10 @@ nav li:hover {
 }
 
 @media only screen and (min-width: 1010px) {
+  .hero {
+    height: 100vh;
+    margin-top: 0;
+  }
   .hero .container {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -456,18 +460,12 @@ nav li:hover {
     display: none;
   }
   .Experiences {
-    margin-left: 2em;
-    margin-right: 2em;
     margin: 2em;
   }
   .skills {
-    margin-left: 2em;
-    margin-right: 2em;
     margin: 2em;
   }
   .projects {
-    margin-left: 2em;
-    margin-right: 2em;
     margin: 2em;
   }
   .projects .container {
