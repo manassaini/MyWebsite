@@ -517,4 +517,41 @@ nav li:hover {
     margin-right: 4em;
   }
 }
+
+@media only screen and (min-width: 1440px) {
+  .hero {
+    padding: 4em 5em;
+  }
+  .hero .main-heading {
+    font-size: 4em;
+  }
+  .hero .sub-heading {
+    font-size: 2.4em;
+  }
+  .hero .profile {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: auto;
+    float: left;
+    width: 33%;
+  }
+  .hero .profile .inLogo {
+    height: 82px;
+    width: 82px;
+    margin-top: 1px;
+  }
+  .hero .profile .ghLogo {
+    height: 99px;
+    width: 99px;
+  }
+  .hero .profile .lcLogo {
+    height: 83px;
+    width: 83px;
+  }
+  .profile-pic {
+    height: 380px;
+    width: 366px;
+  }
+}
 /*# sourceMappingURL=style.css.map */
