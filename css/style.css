@@ -355,6 +355,13 @@ nav li:hover {
         -ms-flex-pack: unset;
             justify-content: unset;
   }
+  .navbar {
+    position: -webkit-sticky;
+    position: sticky;
+    left: 0;
+    right: 0;
+    top: 0;
+  }
   .navbar nav {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -410,8 +417,11 @@ nav li:hover {
 }
 
 @media only screen and (min-width: 1010px) {
-  .hero {
+  .landing {
     height: 100vh;
+  }
+  .hero {
+    height: 100%;
     margin-top: -3em;
   }
   .hero .container {
@@ -423,8 +433,17 @@ nav li:hover {
             justify-content: space-between;
     text-align: left;
   }
+  .container {
+    height: 100%;
+    -webkit-box-flex: 1;
+        -ms-flex-positive: 1;
+            flex-grow: 1;
+  }
   .left {
-    margin: 3em 3em 0 5em;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 3em;
+    margin-right: 3em;
     /*
         text-align: left;
         margin-left: 5em;
@@ -451,10 +470,17 @@ nav li:hover {
     margin-left: 0.9em;
   }
   .right {
-    margin: 3em 3em 0 5em;
+    -webkit-box-flex: 1;
+        -ms-flex-positive: 1;
+            flex-grow: 1;
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
   }
   .right .profile-pic {
-    margin-top: 3em;
+    margin-top: auto;
+    margin-bottom: auto;
   }
   .right .resume {
     display: none;
@@ -517,12 +543,6 @@ nav li:hover {
 }
 
 @media only screen and (min-width: 1102px) {
-  .hero {
-    margin-top: 0.8em;
-  }
-  .hero .profile-pic {
-    margin-top: 1.3em;
-  }
   .Experiences {
     margin: 0;
     padding-left: 12em;
@@ -555,7 +575,7 @@ nav li:hover {
 
 @media only screen and (min-width: 1440px) {
   .hero {
-    padding: 4em 5em;
+    padding: 0em 5em;
   }
   .hero .main-heading {
     font-size: 4em;
@@ -587,6 +607,7 @@ nav li:hover {
   .profile-pic {
     height: 380px;
     width: 366px;
+    margin-right: 8em;
   }
   .Experiences {
     margin: 0;
