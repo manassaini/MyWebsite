@@ -452,17 +452,37 @@ nav{
         }
     }
 
-    .Experiences {
-        margin: 2em;
+    .Experiences {        
+        margin: 0;
+        padding-left: 6em;
+        padding-right: 6em;
+        border-radius: 0;
     }
     
     .skills{
-        margin: 2em;
+        margin: 0;
+        padding-left: 6em;
+        padding-right: 6em;
+        border-radius: 0;
     }
 
     .projects{
-        margin: 2em;
-        //margin-bottom: 0;
+        margin: 0;
+        padding-left: 6em;
+        padding-right: 6em;
+        border-radius: 0;
+
+        section{
+            height: 350px;
+            width: 309px;
+
+            img{
+                width: 340px;
+            }
+            .cluegamepicture{
+                height: 202px;
+            }
+        }
     }
 
     .projects .container {
@@ -560,9 +580,7 @@ nav{
         
     }
 
-    .Experiences {
-        margin: 4em 7em;
-        
+    .Experiences {        
         margin: 0;
         padding-left: 17em;
         padding-right: 17em;
@@ -570,8 +588,6 @@ nav{
     }
     
     .skills{
-        margin: 4em 7em;
-
         margin: 0;
         padding-left: 17em;
         padding-right: 17em;
@@ -579,8 +595,6 @@ nav{
     }
 
     .projects{
-        margin: 4em 7em;
-
         margin: 0;
         padding-left: 17em;
         padding-right: 17em;
