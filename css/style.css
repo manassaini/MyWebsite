@@ -553,5 +553,36 @@ nav li:hover {
     height: 380px;
     width: 366px;
   }
+  .Experiences {
+    margin: 4em 7em;
+    margin: 0;
+    padding-left: 17em;
+    padding-right: 17em;
+    border-radius: 0;
+  }
+  .skills {
+    margin: 4em 7em;
+    margin: 0;
+    padding-left: 17em;
+    padding-right: 17em;
+    border-radius: 0;
+  }
+  .projects {
+    margin: 4em 7em;
+    margin: 0;
+    padding-left: 17em;
+    padding-right: 17em;
+    border-radius: 0;
+  }
+  .projects section {
+    height: 350px;
+    width: 309px;
+  }
+  .projects section img {
+    width: 340px;
+  }
+  .projects section .cluegamepicture {
+    height: 202px;
+  }
 }
 /*# sourceMappingURL=style.css.map */
