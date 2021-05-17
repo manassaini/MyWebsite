@@ -414,6 +414,15 @@ nav li:hover {
     margin-left: 10em;
     margin-right: 10em;
   }
+  .Experiences {
+    border-radius: 0;
+  }
+  .skills {
+    border-radius: 0;
+  }
+  .projects {
+    border-radius: 0;
+  }
 }
 
 @media only screen and (min-width: 1010px) {
@@ -636,6 +645,69 @@ nav li:hover {
   }
   .projects section .cluegamepicture {
     height: 202px;
+  }
+}
+
+@media only screen and (min-width: 1700px) {
+  .hero {
+    padding: 0em 10em;
+  }
+  .profile-pic {
+    margin-right: 4em;
+  }
+  .Experiences {
+    padding-left: 24em;
+    padding-right: 24em;
+  }
+  .skills {
+    padding-left: 24em;
+    padding-right: 24em;
+  }
+  .projects {
+    padding-left: 24em;
+    padding-right: 24em;
+  }
+}
+
+@media only screen and (min-width: 2000px) {
+  .hero {
+    padding: 0em 18em;
+  }
+  .profile-pic {
+    margin-right: 4em;
+  }
+  .Experiences {
+    padding-left: 33em;
+    padding-right: 33em;
+  }
+  .skills {
+    padding-left: 33em;
+    padding-right: 33em;
+  }
+  .projects {
+    padding-left: 33em;
+    padding-right: 33em;
+  }
+}
+
+@media only screen and (min-width: 2560px) {
+  .hero {
+    padding: 0em 30em;
+  }
+  .profile-pic {
+    margin-right: 4em;
+  }
+  .Experiences {
+    padding-left: 45em;
+    padding-right: 45em;
+  }
+  .skills {
+    padding-left: 45em;
+    padding-right: 45em;
+  }
+  .projects {
+    padding-left: 45em;
+    padding-right: 45em;
   }
 }
 /*# sourceMappingURL=style.css.map */
