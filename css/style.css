@@ -280,6 +280,11 @@ body {
   color: white;
   margin: -1em -1em;
   margin-top: 2em;
+  line-height: 1.1em;
+}
+
+.projects section .subtext {
+  font-size: 12px;
 }
 
 .projects section img {
@@ -571,7 +576,7 @@ nav li:hover {
     border-radius: 0;
   }
   .projects section {
-    height: 320px;
+    height: 350px;
     width: 283px;
   }
   .projects section img {
