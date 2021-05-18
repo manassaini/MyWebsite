@@ -337,15 +337,20 @@ nav{
     }
 }
 
-/*
+//the base, what it was originally
 @media only screen and (min-width: 500px){
-    .project1background .projectbackground{
-        color: red;
-        height: 400px;
-        width: 354 px;
+    .projects{
+        background:rgb(70, 70, 70);
+        section{
+            height: 400px;
+            width: 354px;
+            img{
+                width: 386px;
+            }
+        }
     }
 }
-*/
+
 
 @media only screen and (min-width: 768px) {
     .landing{

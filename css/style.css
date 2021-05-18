@@ -347,15 +347,19 @@ nav li:hover {
   text-align: center;
 }
 
-/*
-@media only screen and (min-width: 500px){
-    .project1background .projectbackground{
-        color: red;
-        height: 400px;
-        width: 354 px;
-    }
+@media only screen and (min-width: 500px) {
+  .projects {
+    background: #464646;
+  }
+  .projects section {
+    height: 400px;
+    width: 354px;
+  }
+  .projects section img {
+    width: 386px;
+  }
 }
-*/
+
 @media only screen and (min-width: 768px) {
   .landing {
     height: 100vh;
