@@ -114,6 +114,37 @@ body {
   font-weight: 200px;
 }
 
+.AboutMe {
+  background: #bbbfc2;
+  border-radius: 1em;
+}
+
+.AboutMe div {
+  margin-bottom: 2em;
+}
+
+.AboutMe .aboutmeheading {
+  font-size: 3em;
+  margin-top: 0.4em;
+}
+
+.AboutMe h2 {
+  font-size: 25px;
+  color: #c066ad;
+}
+
+.AboutMe ul {
+  padding-left: 1em;
+}
+
+.AboutMe ul li {
+  line-height: 1.25em;
+}
+
+.AboutMe p {
+  line-height: 1.2em;
+}
+
 .Experiences {
   background: #464646;
   color: white;
@@ -152,40 +183,6 @@ body {
   background: #bbbfc2;
   color: black;
   border-radius: 1em;
-  /*
-    .tech-heading:before{
-        content: "";
-        display: block;
-        width: 84%;
-        height: 2px;
-        background: var(--line-color);
-        position: absolute;
-        left: 4.4em;
-        top: 50%;
-    }
-
-    .method-heading:before{
-        content: "";
-        display: block;
-        width: 71.7%;
-        height: 2px;
-        background: var(--line-color);
-        position: absolute;
-        left: 6.75em;
-        top: 50%;
-    }
-
-    .inter-heading:before{
-        content: "";
-        display: block;
-        width: 75.7%;
-        height: 2px;
-        background: var(--line-color);
-        position: absolute;
-        left: 6em;
-        top: 50%;
-    }
-    */
 }
 
 .skills .skills-heading {
@@ -419,6 +416,9 @@ nav li:hover {
     margin-left: 10em;
     margin-right: 10em;
   }
+  .AboutMe {
+    border-radius: 0;
+  }
   .Experiences {
     border-radius: 0;
   }
@@ -499,6 +499,12 @@ nav li:hover {
   .right .resume {
     display: none;
   }
+  .AboutMe {
+    margin: 0;
+    padding-left: 6em;
+    padding-right: 6em;
+    border-radius: 0;
+  }
   .Experiences {
     margin: 0;
     padding-left: 6em;
@@ -557,6 +563,12 @@ nav li:hover {
 }
 
 @media only screen and (min-width: 1102px) {
+  .AboutMe {
+    margin: 0;
+    padding-left: 12em;
+    padding-right: 12em;
+    border-radius: 0;
+  }
   .Experiences {
     margin: 0;
     padding-left: 12em;
@@ -623,6 +635,12 @@ nav li:hover {
     width: 366px;
     margin-right: 8em;
   }
+  .AboutMe {
+    margin: 0;
+    padding-left: 17em;
+    padding-right: 17em;
+    border-radius: 0;
+  }
   .Experiences {
     margin: 0;
     padding-left: 17em;
@@ -660,6 +678,10 @@ nav li:hover {
   .profile-pic {
     margin-right: 4em;
   }
+  .AboutMe {
+    padding-left: 24em;
+    padding-right: 24em;
+  }
   .Experiences {
     padding-left: 24em;
     padding-right: 24em;
@@ -681,6 +703,10 @@ nav li:hover {
   .profile-pic {
     margin-right: 4em;
   }
+  .AboutMe {
+    padding-left: 33em;
+    padding-right: 33em;
+  }
   .Experiences {
     padding-left: 33em;
     padding-right: 33em;
@@ -701,6 +727,10 @@ nav li:hover {
   }
   .profile-pic {
     margin-right: 4em;
+  }
+  .AboutMe {
+    padding-left: 45em;
+    padding-right: 45em;
   }
   .Experiences {
     padding-left: 45em;
