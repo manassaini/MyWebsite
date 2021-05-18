@@ -142,7 +142,8 @@ body {
 }
 
 .AboutMe p {
-  line-height: 1.2em;
+  line-height: 1.3em;
+  color: black;
 }
 
 .Experiences {
