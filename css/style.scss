@@ -54,6 +54,7 @@ body{
 .hero{
     text-align: center;
     letter-spacing: 0.1em;
+    margin-bottom: 2.5em;
 }
 
 .left{
@@ -96,6 +97,7 @@ body{
     height: 320px;
     width: 310px;
 }
+/*
 .resume{
     color: white;
     display: block;
@@ -108,6 +110,7 @@ body{
     font-size: 1.4em;
     font-weight: 200px;
 }
+*/
 
 .AboutMe{
     background:rgb(187, 191, 194);
@@ -334,6 +337,14 @@ nav{
     }
 }
 
+/*
+@media only screen and (min-width: 500px){
+    .project1background .projectbackground{
+        color: red;
+    }
+}
+*/
+
 @media only screen and (min-width: 768px) {
     .mobile-menu, .mobile-menu-exit {
         display: none;
@@ -398,10 +409,12 @@ nav{
     }
     */
 
+    /*
     .resume{
         margin-left: 10em;
         margin-right: 10em;
     }
+    */
     
     .AboutMe{
         border-radius: 0;
