@@ -351,10 +351,15 @@ nav li:hover {
 @media only screen and (min-width: 500px){
     .project1background .projectbackground{
         color: red;
+        height: 400px;
+        width: 354 px;
     }
 }
 */
 @media only screen and (min-width: 768px) {
+  .landing {
+    height: 100vh;
+  }
   .mobile-menu, .mobile-menu-exit {
     display: none;
   }
