@@ -269,9 +269,9 @@ body {
 .projects section {
   background: #222121;
   border-radius: 1em;
-  height: 400px;
+  height: 420px;
   margin-bottom: 2.5em;
-  width: 310px;
+  width: 250px;
 }
 
 .projects section p {
@@ -287,7 +287,7 @@ body {
 
 .projects section img {
   border-radius: 1em;
-  width: 345px;
+  width: 285px;
   padding: 0em;
   margin: -1em -1em;
 }
