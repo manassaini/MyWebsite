@@ -117,7 +117,7 @@ body {
 }
 */
 .AboutMe {
-  background: #bbbfc2;
+  background: #cfd8dd;
   border-radius: 1em;
 }
 
@@ -146,6 +146,7 @@ body {
 .AboutMe p {
   line-height: 1.3em;
   color: black;
+  letter-spacing: 0.25px;
 }
 
 .Experiences {
@@ -183,7 +184,7 @@ body {
 }
 
 .skills {
-  background: #bbbfc2;
+  background: #cfd8dd;
   color: black;
   border-radius: 1em;
 }
