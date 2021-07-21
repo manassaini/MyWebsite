@@ -299,6 +299,10 @@ body {
   height: 235px;
 }
 
+.projects .DSApicture {
+  height: 235px;
+}
+
 nav.menu-btn {
   display: block;
 }
