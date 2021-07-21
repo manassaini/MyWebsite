@@ -569,7 +569,7 @@ nav li:hover {
   }
   .project1 {
     margin-top: 5em;
-    margin-left: -11em;
+    margin-left: -26em;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
@@ -580,7 +580,7 @@ nav li:hover {
         -ms-flex-align: center;
             align-items: center;
     margin-right: 0em;
-    margin-left: auto;
+    margin-left: -10em;
   }
   .project3 {
     margin-top: 40em;
