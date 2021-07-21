@@ -240,7 +240,6 @@ body {
 
 .projects {
   background: #464646;
-  border-radius: 1em;
 }
 
 .projects .projects-heading {
@@ -303,6 +302,75 @@ body {
   height: 235px;
 }
 
+.project3 {
+  margin-top: -6em;
+}
+
+/*
+.projects2{
+    background:rgb(70, 70, 70);
+    border-radius: 1em;
+
+    .projects-heading{
+        font-size: 3em;
+        margin-top: 0.4em;
+        color: white;
+    }
+
+    a{
+        text-decoration: none;
+        color:rgb(233, 233, 66);
+
+        &:hover{
+            color: rgb(0, 195, 255);
+        }
+    }
+
+    h4{
+        font-size: 1.6em;
+        margin-bottom: 1em;
+        color:rgb(233, 233, 66);
+
+        span{
+            color: rgb(255, 247, 247);
+            font-size: 0.75em;
+        }
+    }
+    
+    section{
+        background: rgb(34, 33, 33);
+        border-radius: 1em;
+        height: 420px;
+        margin-bottom: 2.5em;
+        width: 246px;
+        
+        p{
+            color: white;
+            margin: -1em -1em;
+            margin-top: 2em;
+            line-height: 1.1em;
+            
+        }
+        .subtext{
+            font-size: 12px;
+        }
+
+        img{
+            border-radius: 1em;
+            width: 280px;
+            padding: 0em;
+            margin: -1em -1em; 
+            
+        }
+    }
+    .cluegamepicture{
+        height: 235px;
+    }
+    .DSApicture{
+        height: 235px;
+    }
+}
+*/
 nav.menu-btn {
   display: block;
 }
@@ -559,6 +627,9 @@ nav li:hover {
   .projects section .cluegamepicture {
     height: 202px;
   }
+  .projects section .DSApicture {
+    height: 202px;
+  }
   .projects .container {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -579,12 +650,15 @@ nav li:hover {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    margin-right: 16.7em;
+    margin-right: 0;
     margin-left: auto;
   }
-  .project3 {
-    margin-top: 40em;
-    margin-left: -40em;
+  .project4 {
+    margin-top: -6em;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-left: auto;
   }
   .footer {
     margin: 0;
@@ -626,6 +700,9 @@ nav li:hover {
   }
   .projects section .cluegamepicture {
     height: 187px;
+  }
+  .project4 {
+    margin-right: 2em;
   }
 }
 
@@ -698,6 +775,9 @@ nav li:hover {
   }
   .projects section .cluegamepicture {
     height: 202px;
+  }
+  .project4 {
+    margin-right: 0.5em;
   }
 }
 
