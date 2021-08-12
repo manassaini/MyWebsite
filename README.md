@@ -16,6 +16,8 @@ Features
 
 My next steps are to learn more about HTML and CSS. I have to dive into semantic tags in HTML and flexbox in CSS. I used some flexbox in this project but had to look online for help. Doing a deeper dive into these technologies will help me make other websites easily. Speaking of this, I would like to make other websites for different businesses. Such as building a website for my tennis camp I run every summer. That would be a very nice addition to our business, as well as another project to show off. In addition, I would also like to upgrade SEWA international's website. This is a non-profit I am a big part of and it would help them out. This would mean I would take part as a freelance web developer, which stands out.
 
+Project Scope: 1 month, 900+ lines of code, 60 commits (subject to change as I update)
+
 Credits
 https://www.youtube.com/watch?v=D-h8L5hgW-w
 https://www.youtube.com/watch?v=UB1O30fR-EE
